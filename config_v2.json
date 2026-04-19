@@ -19,7 +19,7 @@
     "mysql": {
       "host": "localhost",
       "user": "root",
-      "password": "Gurusathvik@99",
+      "password": "${MYSQL_PASSWORD}",
       "database": "agentic_ai"
     }
   },
