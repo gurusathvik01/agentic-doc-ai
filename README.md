@@ -96,7 +96,6 @@ pip install -r requirements_v2.txt
 
 ```
 
----
 3. Setup Environment
 
 Create a .env file in the root:
@@ -107,7 +106,7 @@ MYSQL_PASSWORD=your_actual_password
 
 ---
 
-##4. Run Backend
+4. Run Backend
    
 python app.py
 
@@ -117,13 +116,13 @@ start_backend.bat
 
 ---
 
-##5. Run Frontend
+5. Run Frontend
    
 start_frontend.bat
 
 ---
 
-##🔐 Security
+🔐 Security
 
 No API keys stored in repository
 No database credentials exposed
@@ -132,7 +131,7 @@ Safe for public GitHub usage
 
 ---
 
-##📌 Use Cases
+📌 Use Cases
 
 📊 Business report analysis
 📚 Research paper querying
@@ -141,7 +140,7 @@ Safe for public GitHub usage
 
 ---
 
-##🚧 Future Improvements
+🚧 Future Improvements
 
 Multi-document querying
 Streaming responses
@@ -150,6 +149,6 @@ Advanced agent reasoning
 
 ---
 
-##👨‍💻 Author
+👨‍💻 Author
 
 Guru Sathvik
