@@ -73,7 +73,7 @@ def get_mysql_connection():
         conn = mysql.connector.connect(
             host=os.getenv("MYSQL_HOST", "localhost"),
             user=os.getenv("MYSQL_USER", "root"),
-            password=os.getenv("MYSQL_PASSWORD", "Gurusathvik@99"),  # 🔥 PUT PASSWORD IN .env
+            password=os.getenv("MYSQL_PASSWORD"),  # 🔥 PUT PASSWORD IN .env
             database=os.getenv("MYSQL_DB", "agentic_ai")
         )
         return conn

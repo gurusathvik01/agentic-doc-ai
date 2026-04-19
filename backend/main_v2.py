@@ -40,7 +40,7 @@ orchestrator = AgenticOrchestrator(
     mysql_config={
         'host': os.getenv("MYSQL_HOST", "localhost"),
         'user': os.getenv("MYSQL_USER", "root"),
-        'password': os.getenv("MYSQL_PASSWORD", "Gurusathvik@99"),
+        'password': os.getenv("MYSQL_PASSWORD"),
         'database': os.getenv("MYSQL_DB", "agentic_ai")
     }
 )

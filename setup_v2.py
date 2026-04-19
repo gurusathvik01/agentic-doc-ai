@@ -130,7 +130,7 @@ def create_config_files():
 MONGO_URI=mongodb://localhost:27017/
 MYSQL_HOST=localhost
 MYSQL_USER=root
-MYSQL_PASSWORD=Gurusathvik@99
+MYSQL_PASSWORD=${MYSQL_PASSWORD}
 MYSQL_DB=agentic_ai
 
 # Ollama Configuration
@@ -176,7 +176,7 @@ LOG_FILE=logs/agentic_ai.log
             "mysql": {
                 "host": "localhost",
                 "user": "root",
-                "password": "Gurusathvik@99",
+                "password": "${MYSQL_PASSWORD}",
                 "database": "agentic_ai"
             }
         },

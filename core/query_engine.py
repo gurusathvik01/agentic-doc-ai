@@ -6,6 +6,7 @@ from datetime import datetime
 import pymongo
 import mysql.connector
 from mysql.connector import Error
+import os
 
 logger = logging.getLogger(__name__)
 
@@ -16,7 +17,7 @@ class QueryEngine:
         self.mysql_config = mysql_config or {
             'host': 'localhost',
             'user': 'root',
-            'password': 'Gurusathvik@99',
+            'password': os.getenv("MYSQL_PASSWORD"),
             'database': 'agentic_ai'
         }
         
