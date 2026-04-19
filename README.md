@@ -34,6 +34,7 @@ This project goes beyond simple LLM usage by implementing a **multi-agent archit
 ---
 
 ## 🏗️ Project Structure
+
 agentic-doc-ai/
 │
 ├── backend/ # API routes, agents, DB handling
@@ -106,7 +107,8 @@ MYSQL_PASSWORD=your_actual_password
 
 ---
 
-4. Run Backend
+##4. Run Backend
+   
 python app.py
 
 OR
@@ -115,12 +117,14 @@ start_backend.bat
 
 ---
 
-5. Run Frontend
+##5. Run Frontend
+   
 start_frontend.bat
 
 ---
 
-🔐 Security
+##🔐 Security
+
 No API keys stored in repository
 No database credentials exposed
 Uses .env for sensitive data
@@ -128,7 +132,8 @@ Safe for public GitHub usage
 
 ---
 
-📌 Use Cases
+##📌 Use Cases
+
 📊 Business report analysis
 📚 Research paper querying
 📄 Document-based AI assistants
@@ -136,7 +141,8 @@ Safe for public GitHub usage
 
 ---
 
-🚧 Future Improvements
+##🚧 Future Improvements
+
 Multi-document querying
 Streaming responses
 Improved UI/UX
@@ -144,5 +150,6 @@ Advanced agent reasoning
 
 ---
 
-👨‍💻 Author
+##👨‍💻 Author
+
 Guru Sathvik
