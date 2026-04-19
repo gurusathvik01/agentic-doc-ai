@@ -93,6 +93,8 @@ cd agentic-doc-ai
 2. Install dependencies
 pip install -r requirements_v2.txt
 
+```
+
 ---
 3. Setup Environment
 
